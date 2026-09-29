@@ -1,0 +1,7 @@
+{
+  "name": "leankit",
+  "version": "0.1.0",
+  "description": "ponytail + tpd + graphify + rtk in one plugin. Enable per project with a .leankit file.",
+  "author": { "name": "sinamashini", "url": "https://github.com/sinamashini" },
+  "hooks": "./hooks/hooks.json"
+}

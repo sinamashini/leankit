@@ -1,0 +1,22 @@
+{
+  "name": "leankit",
+  "version": "0.1.0",
+  "description": "ponytail + tpd + graphify + rtk in one plugin. Enable per project with a .leankit file.",
+  "author": { "name": "sinamashini", "url": "https://github.com/sinamashini" },
+  "homepage": "https://github.com/sinamashini/leankit",
+  "repository": "https://github.com/sinamashini/leankit",
+  "license": "MIT",
+  "keywords": ["yagni", "tokens", "knowledge-graph", "workflow"],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "leankit",
+    "shortDescription": "Lean code, lean tokens",
+    "longDescription": "Bundles ponytail, tpd, graphify and rtk. One .leankit file per project turns each on.",
+    "developerName": "sinamashini",
+    "category": "Productivity",
+    "capabilities": ["Instructions", "Lifecycle hooks"],
+    "websiteURL": "https://github.com/sinamashini/leankit",
+    "defaultPrompt": ["Run /leankit init in this project.", "Show leankit status."]
+  }
+}

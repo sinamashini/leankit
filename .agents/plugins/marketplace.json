@@ -1,0 +1,12 @@
+{
+  "name": "leankit",
+  "interface": { "displayName": "leankit" },
+  "plugins": [
+    {
+      "name": "leankit",
+      "source": { "source": "url", "url": "https://github.com/sinamashini/leankit.git", "ref": "main" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

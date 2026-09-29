@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "leankit",
+  "description": "Lean coding, lean tokens: ponytail, tpd, graphify, rtk.",
+  "owner": { "name": "sinamashini", "url": "https://github.com/sinamashini" },
+  "plugins": [
+    {
+      "name": "leankit",
+      "description": "ponytail + tpd + graphify + rtk, toggled per project by .leankit.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
